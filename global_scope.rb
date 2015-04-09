@@ -21,3 +21,11 @@ end
 
 print_doubled_value(x)
 puts "outer x is still: #{x}"
+
+a = 4
+b = 12
+def combine_variables(x)
+  puts "inner x is: #{x}"
+  puts "and outer b is: #{b}"
+end
+combine_variables(a)

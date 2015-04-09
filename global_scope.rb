@@ -35,3 +35,14 @@ end
 
 a = 4
 combine_variables(a)
+
+creatures = ["IndustrialRaverMonkey", "DwarvenAngel", "TeethDeer"]
+hero = "Dwemthy"
+
+def battling_technique
+  ["heroically", "clumsily", "cleverly"].sample
+end
+
+creatures.each do |c|
+  puts "#{hero} battles #{c} #{battling_technique}"
+end

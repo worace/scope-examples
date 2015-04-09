@@ -11,3 +11,13 @@ print_doubled_value(x)
 
 y = 27
 print_doubled_value(y)
+
+def print_doubled_value(x)
+  orig = x
+  x = x * 2
+  puts "double the value #{orig} is #{x}"
+  puts "inner x is now: #{x}"
+end
+
+print_doubled_value(x)
+puts "outer x is still: #{x}"

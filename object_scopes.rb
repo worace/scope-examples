@@ -1,5 +1,5 @@
 class PizzaOven
-  def cook(temp, crust_type)
+  def cook(temp = "425 F", crust_type = "Deep Dish")
     puts "mmm, mmm. cookin #{crust_type} pizza in the oven at #{temp}"
   end
 
@@ -13,4 +13,5 @@ class PizzaOven
 end
 
 oven = PizzaOven.new
-oven.cook(oven.crust_type, oven.temp)
+oven.cook
+oven.cook(oven.temp, oven.crust_type)

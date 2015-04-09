@@ -46,3 +46,14 @@ end
 creatures.each do |c|
   puts "#{hero} battles #{c} #{battling_technique}"
 end
+
+new_creatures = ["IntrepidDecomposedCyclist", "Dragon"]
+villain = "AssistantViceTentacleAndOmbudsman"
+hero = "who knows"
+
+new_creatures.each do |villain|
+  hero = "Dwemthy"
+  puts "this time the villain is #{villain} and the hero is #{hero}"
+end
+puts "hoora, battle is over; now our hero is: #{hero}"
+puts "but the villan #{villain} has returned!"

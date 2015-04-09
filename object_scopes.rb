@@ -1,5 +1,5 @@
 class PizzaOven
-  def cook(temp = "425 F", crust_type = "Deep Dish")
+  def cook(temp = temp, crust_type = crust_type)
     puts "mmm, mmm. cookin #{crust_type} pizza in the oven at #{temp}"
   end
 

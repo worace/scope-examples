@@ -25,6 +25,8 @@ puts "outer x is still: #{x}"
 def combine_variables(x)
   puts "inner x is: #{x}"
   puts "and outer b is: #{b}"
+  b = "pizza"
+  puts "but now b is: #{b}"
 end
 
 def b

@@ -1,6 +1,6 @@
 class PizzaOven
   def cook
-    puts "cookin pizza in the oven: #{oven}"
+    puts "cookin pizza in the oven: #{self}"
   end
 end
 

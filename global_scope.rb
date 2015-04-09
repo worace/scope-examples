@@ -8,3 +8,6 @@ def print_doubled_value(x)
 end
 
 print_doubled_value(x)
+
+y = 27
+print_doubled_value(y)

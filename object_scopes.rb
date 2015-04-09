@@ -13,4 +13,4 @@ class PizzaOven
 end
 
 oven = PizzaOven.new
-oven.cook(oven.temp, oven.crust_type)
+oven.cook(oven.crust_type, oven.temp)
